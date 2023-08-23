@@ -1,0 +1,171 @@
+   @font-face {
+    font-family: GilRoy;
+    src: url(./Gilroy-Light.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: GilRoy;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+.nav{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+.nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+.nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.nav h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.nav img{
+    height: 50px;
+}
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+.content{
+    height: 86%;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 160px 100px;
+}
+.left h1{
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.left h1 span{
+    color: red;
+    font-weight: 600;
+}
+.left p{
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 50px;
+    line-height: 24px;
+}
+.pt2{
+    display: flex;
+}
+.pt2>i{
+    font-size: 25px;
+    color: red;
+    margin-top: 10px;
+}
+.left button{
+    background-color: red;
+    padding: 20px 42px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-right: 50px;
+    border: none;
+}
+.left button i{
+    margin-right: 9px;
+
+}
+.center{
+    width: 26%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-top: 60px;
+}
+.center-bg{
+    height: 97%;
+    width: 100%;
+    background-color: red;
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage.jpg);
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(3px);
+}
+.content>img{
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%,0);
+    z-index: 99;
+}
+.right{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 340px 140px;
+}
+.right-elems{
+    width: 370px;
+}
+.elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.6;
+    height: 70px;
+    border-bottom: 1px solid #fff;
+}
+.elem1 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.elem1 i{
+    font-size: 24px;
+}
+.elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.elem2 p{
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.6;
+}
